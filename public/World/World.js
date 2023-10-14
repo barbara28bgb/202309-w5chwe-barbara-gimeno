@@ -7,7 +7,7 @@ class World {
     this.cell = [];
   }
 
-  initBoard(length, ...element) {
+  initBoard(length, isAlive = true, ...element) {
     for (let indexRow = 0; indexRow < length; indexRow++) {
       this.cell[indexRow] = element;
       for (let indexColumn = 0; indexColumn < length; indexColumn++) {

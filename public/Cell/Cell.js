@@ -4,5 +4,9 @@ class Cell {
   constructor(isAlive) {
     this.isAlive = isAlive;
   }
+
+  die() {}
+
+  reborn() {}
 }
 export default Cell;
