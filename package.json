@@ -2,7 +2,8 @@
   "name": "202309-w5chwe-barbara-gimeno",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "public/index.js",
+  "type": "module",
   "scripts": {
     "prepare": "husky install",
     "start:dev": "node --watchAll",
